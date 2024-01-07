@@ -12,6 +12,20 @@
   - Handling static files and assets
 ---
 
+You can test the application using this endpoints:
+```bash
+/restaurant/menu/menu/
+/restaurant/booking/
+/restaurant/booking/tables/
+/restaurant/booking/tables/1/
+/restaurant/booking/tables/2/
+/restaurant/booking/tables/3/
+/auth/users/
+/auth/users/me/
+/api-token-auth/ (for Insomnia POST Request)
+/auth/token/login
+/auth/token/logout
+```
 ## Revising Models
 
 - *Connecting the backend to the database:*
